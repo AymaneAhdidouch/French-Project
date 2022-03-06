@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>La Notion de Valeur</title>
+</head>
+<body>
+    <div class="container">
+        <header class="titre">
+            <h1>La Notion De Valeur</h1>
+        </header>
+        <nav>
+            <a href="dif.html">Définition</a>
+            <a href="philo.html">En philosophie</a>
+            <a href="psych.html">En psychologie</a>
+            <a href="soci.html">En sociologie</a>
+        </nav>
+        <video width="100.09%" style="border: 15px solid #023047e5; border-radius:  0px 0px 30px 30px;" controls>
+            <source src="video/Quelles sont vos VALEURS _480p.mp4" type="video/mp4">
+        </video>
+        <header class="titre">
+            <h1>Random Game</h1>
+        </header>
+        <div class="game">
+            <div class="row1">
+                <div class="gp">
+                    <h1>Groupe A</h1>
+                    <h1 id="gpA">0</h1>
+                    <button id="btn-home" onclick="plusA()">Plus</button>
+                    <button id="btn-next" onclick="moinsA()">Moins</button>
+                </div><hr id="hr"><hr id="hr">
+                <div class="gp">
+                    <h1>Groupe C</h1>
+                    <h1 id="gpC">0</h1>
+                    <button id="btn-home" onclick="plusC()">Plus</button>
+                    <button id="btn-next" onclick="moinsC()">Moins</button>
+                </div>
+            </div><hr>
+            <div class="row2">
+                <div class="gp">
+                    <h1>Groupe B</h1>
+                    <h1 id="gpB">0</h1>
+                    <button id="btn-home" onclick="plusB()">Plus</button>
+                    <button id="btn-next" onclick="moinsB()">Moins</button>
+                </div><hr id="hr"><hr id="hr">
+                <div class="gp">
+                    <h1>Groupe D</h1>
+                    <h1 id="gpD">0</h1>
+                    <button id="btn-home" onclick="plusD()">Plus</button>
+                    <button id="btn-next" onclick="moinsD()">Moins</button>
+                </div>
+            </div>
+        </div>
+        <div class="res">
+            <h1 id="res">Nom de Stagiaire</h1>
+            <button id="btn-game" onclick="winner()">Click Here</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="lam"> 
+            <div class="lam1">
+                <img src="images/r1.jpg" alt="icon">
+                <h2>Sara Bensiali</h2>
+                <h3>Stagiare</h3>
+            </div>
+            <div class="lam2">
+                <img src="images/r2.jpg" alt="icon">
+                <h2>Souad Elhindi</h2>
+                <h3>Stagiare</h3>
+            </div>
+        </div>
+        <div class="lama">
+            <div class="lam3">
+                <img src="images/r3.png" alt="icon">
+                <h2>Aymane Ahdidouch</h2>
+                <h3>Stagiare</h3>
+            </div>
+            <div class="lam4">
+                <img src="images/r4.png" alt="icon">
+                <h2>Abdellatif Ighil</h2>
+                <h3>Stagiare</h3>
+            </div>
+        </div> 
+        
+        <h1 style="margin-bottom: 10px;">Development Digital -ISTA-/ Al hoceima Dev 103</h1>
+        <a href="#" style="margin-bottom: 10px;">you can Unsubscribe here</a>
+        <div class="final">
+            <img src="images/t.png" alt="//" width="10%">
+            <img src="images/f.png" alt="//" width="10%">
+            <img src="images/i.png" alt="//" width="10%">
+        </div>
+    </footer>
+</body>
+</html>
